@@ -1,0 +1,35 @@
+@font-face {
+    font-family: raleway;
+    src: url("../assets/fonts/Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: ralewaybold;
+    src: url("../assets/fonts/Raleway-Bold.ttf");
+}
+body {
+    font-family: raleway;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, p {
+    font-family: ralewaybold;
+}
+.score {
+    color: #2a8a2a;
+
+}
+.wrong-list li {
+    color: crimson;
+}
+button {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border: 2px #582a8a;
+    border-radius: 4px;
+    padding: 4px;
+    font-family: raleway;
+}
+input:checked {
+    border: 1px #582a8a;
+}
