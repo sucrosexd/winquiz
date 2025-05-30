@@ -1,1 +1,3 @@
-# winquiz
+uhhhhhhhhhhhhhhh
+хоткеи винды.
+да.
