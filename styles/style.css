@@ -11,12 +11,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #1e1e1e;
+    color: azure;
+    font-size: 130%;
 }
 h1, p {
     font-family: ralewaybold;
 }
 .score {
-    color: #2a8a2a;
+    color: #2fac2f;
 
 }
 .wrong-list li {
@@ -32,4 +35,7 @@ button {
 }
 input:checked {
     border: 1px #582a8a;
+}
+#quiz {
+    max-width: 900px;
 }
